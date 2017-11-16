@@ -83,4 +83,14 @@ $firstCar = new Voiture('BETYS025', new DateTime('2011-03-12'), 25000, '206+',
 
 display($firstCar, 'http://www.cars-data.com/pictures/thumbs/350px/peugeot/peugeot-206_1972_1.jpg');
 
+$secondCar = new Voiture('DEKYS124', new DateTime('2015-10-25'), 6370, 'F12 Berlinetta',
+'Ferrari', 'Red', 1);
+
+display($secondCar, 'http://www.cars-data.com/pictures/thumbs/350px/ferrari/ferrari-f12-berlinetta_615_1.jpg');
+
+$thirdCar = new Voiture('FRKYS124', new DateTime('2017-11-10'), 100, 'Niro 1.6 GDi Hybrid DynamicLine',
+'Kia', 'Blue', 4);
+
+display($thirdCar, 'http://www.cars-data.com/pictures/thumbs/350px/kia/kia-niro_3840_1.jpg');
+
 /*print_r($firstCar);*/
